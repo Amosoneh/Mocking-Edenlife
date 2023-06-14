@@ -3,7 +3,7 @@ services:
     container_name: postgres-edenlifemock
     image: postgres
     environment:
-      POSTGRES_USER: boyo
+      POSTGRES_USER: amos
       POSTGRES_PASSWORD: password
       PGDATA: /data/postgres
     volumes:
